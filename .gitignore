@@ -1,0 +1,31 @@
+
+---
+
+### ✅ `.gitignore`
+```gitignore
+# Django
+*.pyc
+__pycache__/
+*.sqlite3
+/media/
+*.log
+.env
+
+# Virtual env
+venv/
+.env/
+.env.*  # For dotenv configs
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.db
+Dockerfile
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db
